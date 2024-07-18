@@ -194,4 +194,4 @@ async def command_error(ctx, error):
     else:
         await ctx.send(f"An error occurred: {str(error)}")
 
-bot.run('a')
+bot.run('TOKEN')
